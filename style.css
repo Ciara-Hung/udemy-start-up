@@ -1,0 +1,42 @@
+body,
+html {
+  width: 100%; /*make sure the body and HTML will always cover 100% whenever users see*/
+  height: 100%;
+  font-family: 'Montserrat', sans-serif; 
+  background: url(header2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+  text-transform:uppercase;
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(255, 249, 236);
+}
+hr{
+  border-color: wheat;
+  border-width: 3px;
+  max-width: 65px; /*將格線縮小*/
+}
+.buffer{
+  height: 10rem;
+}
+.btn{
+  font-weight: 700;
+  border-radius: 300px; /*讓按鈕邊框變圓*/
+  text-transform:uppercase;
+  background-color: rgb(194, 166, 114);
+  border-color: rgb(194, 166, 114);
+}
+.btn:hover , .btn:focus{
+  background-color:rgb(243, 224, 189);
+  border-color:rgb(243, 224, 189);
+  border-width: 4px;
+}
+
+.btn-xl{
+  padding: 1rem 2rem;
+}
